@@ -13,4 +13,7 @@ export class HomePage {
 
   }
 
+  public login(){
+    this.navCtrl.push('CategoriasPage');
+  }
 }
